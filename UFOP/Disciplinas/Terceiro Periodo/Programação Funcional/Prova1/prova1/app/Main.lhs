@@ -200,7 +200,16 @@ Com base no apresentado, implemente a função `foldTrain` para o tipo
 `Train`.
 
 > foldTrain :: (a -> b -> b) -> b -> Train a -> b
-> foldTrain = undefined
+> foldTrain _ v Empty = v
+> foldTrain f v (Locomotive _ xs) = (foldTrain f v xs)
+> foldTrain f v (Wagon a xs) = f a (foldTrain f v xs)
+
+Comentarios:
+  Refazendo Foldr para foldTrain. Usando a definição de Foldr, que é a de aplicar uma
+determinada função em cima de uma lista, usaremos foldTrain para aplicar uma determinada
+função em cima do Contrutor Train. Quando o construtor for vazio (Empty), retornarei somente
+o valor. A partir disso, eu aplico a recursão da função em cima das funções construtoras (Wagon
+e Locomotive).
 
 Sua implementação deve atender os seguintes casos de teste:
 
@@ -234,7 +243,11 @@ Podemos definir uma função `filter` para o tipo `Train a`. A chamada
 Com base no apresentado, implemente a função `filterTrain`.
 
 > filterTrain :: (a -> Bool) -> Train a -> Train a
-> filterTrain = undefined
+> filterTrain _ Empty = Empty 
+> filterTrain x (Wagon a xs) 
+>  | x a = Wagon a (filterTrain x xs)
+>  | otherwise = (filterTrain x xs)
+> filterTrain x (Locomotive a xs) = Locomotive a (filterTrain x xs)
 
 Sua implementação deve atender os seguintes casos de teste:
 
@@ -257,8 +270,22 @@ Sua implementação deve atender os seguintes casos de teste:
 > weight :: Train Cargo -> Weight
 > weight = foldTrain step base
 >   where
->     step = undefined
->     base = undefined
+>     step NoCargo acc = acc
+>     step (Persons b) acc = (sum b) + acc
+>     step (Products a) acc = a + acc
+>     base = 0
+
+  Comentarios: Como já apresentado no inicio da implementação, usando a função foldTrain
+criada anteriormente, para somar o peso total. Primeiro eu assumo que NoCargo não terá
+valor algum, então carrego com ela somente um acumulador. Como a função Contrutora Persons
+tem como valor uma lista do peso das pessoas que nelas estão, preciso usar a função 'sum'
+para somar o valor dessa lista, depois somar esse mesmo valor com o mesmo acumulador anterior.
+Já Products, por ser uma função construtora com valor unico, somo esse valor ao acumulador e
+assim chego ao valor total do construtor Train
+
+Questão discutida com Gabriel Niquini
+
+
 
 que calcula o peso total transportado por um comboio ferroviário
 representado por um valor de tipo `Train Cargo`. Sua solução deve
@@ -292,7 +319,15 @@ pelo construtor `Wagon` em um valor de tipo `Train a`.
 Com base no apresentado, implemente a função `mapTrain`:
 
 > mapTrain :: (a -> b) -> Train a -> Train b
-> mapTrain = undefined
+> mapTrain _ Empty = Empty
+> mapTrain f (Locomotive a xs) = Locomotive a (mapTrain f xs)
+> mapTrain f (Wagon a xs) = Wagon (f a) (mapTrain f xs)
+
+
+  Comentarios: Tendo em vista que a função 'map' aplica uma função a cada elemento de uma lista,
+usando o conceito dela, definimos 'mapTrain'. Uso a função construtora Empty, que significa um
+Train vazio como meu "caso base" e defino a recursão para as outras funções construtoras 
+(Locomotive e Wagon).
 
 Sua implementação deve atender os seguintes casos de teste:
 
@@ -314,7 +349,22 @@ Sua implementação deve atender os seguintes casos de teste:
 5. (Valor 2,0 pts). Implemente a função:
 
 > buildTrain :: [Cargo] -> Train Cargo
-> buildTrain = undefined
+> buildTrain a = Locomotive (peso a) (trem a) 
+>               where 
+>                   peso [] = 0
+>                   peso (NoCargo:xs) = 0 + peso xs
+>                   peso ((Products b):xs) = b + peso xs
+>                   peso ((Persons c):xs) = (sum c) + peso xs
+>                   trem [] = Empty
+>                   trem (q:xs) = Wagon q (trem xs)
+
+Comentarios: Pensando um pouco na função 'weight', que soma o peso de todos vagoes de um Train,
+uso a função Contrutora Locomotive, que me retorna um Train Cargo. Com isso, calculo o 'Weight',
+que nada mais é do que o peso dos 'Cargo's' (Products e Persons), que juntos me dão o peso completo
+do trem, junto da Locomotive.
+
+Questão discutida com Carlos Eduardo e Gabriel Niquini
+locomotiva + pessoa(sum) + produto + produto + ...
 
 Que a partir de uma lista de itens a serem transportados,
 retorna um valor do tipo `Train` que
