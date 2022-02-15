@@ -1,0 +1,368 @@
+-----
+Kurt Turnbull
+	270000.0
+	The Lawns
+	West Cardoon
+	Mobile
+	Tem Elevador
+-----
+-----
+Tyrell Tang
+	315000.0
+	Back Road
+	King Point
+	Thompson
+	1 Andar(es)
+-----
+-----
+Niyah Lewis
+	550000.0
+	Blenheim Close
+	Larch Gardens
+	Orford
+	2 Andar(es)
+-----
+-----
+Libbie Reilly
+	280000.0
+	Rose Street
+	Prospect Place
+	Hoquiam
+	Tem Elevador
+-----
+-----
+Szymon Gallegos
+	800000.0
+	Seymour Road
+	Saddle Forest
+	Saint Boniface
+	Tem Campo de Futebol
+-----
+-----
+Lila Ellison
+	195000.0
+	Orchard Way
+	Ripple Point
+	Chulmleigh
+	Tem Elevador
+-----
+-----
+Tomi French
+	160000.0
+	Waverley Road
+	Fort Nutmeg
+	Newton-le-Willows
+	Não Tem Elevador
+-----
+-----
+Amani Riley
+	300000.0
+	Broadway
+	Teal Square
+	Penrith
+	1 Andar(es)
+-----
+-----
+Menaal Keeling
+	600000.0
+	Laburnum Grove
+	Mount Woodruff
+	Higham Ferrers
+	Não Tem Campo de Futebol
+-----
+-----
+Darragh Benton
+	180000.0
+	Bridge Street
+	Annatto City
+	Staunton
+	Não Tem Elevador
+-----
+-----
+Damien Boyce
+	900000.0
+	Elm Close
+	Sallow Plains
+	Great Dunmow
+	3 Andar(es)
+-----
+-----
+Nina Hunter
+	500000.0
+	Parsonage Lane
+	Maroon Hook
+	Cherokee
+	Tem Elevador
+-----
+-----
+Simone Ashley
+	255000.0
+	Wisdom
+	Parsonage Lane
+	Penrith
+	1 Andar(es)
+-----
+-----
+Millie-Mae Carr
+	265000.0
+	Mary Street
+	Myers Falls
+	Eastchester
+	Tem Elevador
+-----
+-----
+Lila Ellison
+	236000.0
+	Back Road
+	Saddle Forest
+	Orford
+	Tem Campo de Futebol
+-----
+-----
+Kendall Muir
+	200000.0
+	Kings Road
+	Amethyst Point
+	Shiprock
+	Tem Elevador
+-----
+-----
+Georgina Hendrix
+	290000.0
+	Woodhouse Lane
+	Queen Bay
+	Busselton
+	1 Andar(es)
+-----
+-----
+Simone Ashley
+	770000.0
+	Windmill Lane
+	Teal Wharf
+	Uckfield
+	2 Andar(es)
+-----
+-----
+Simone Ashley
+	455000.0
+	Winterfield
+	Aston
+	Eastchester
+	1 Andar(es)
+-----
+-----
+Amani Riley
+	100000.0
+	Back Road
+	Saddle Forest
+	Saint Boniface
+	Não Tem Campo de Futebol
+-----
+-----
+Amani Riley
+	670000.0
+	Seymour Road
+	West Cardoon
+	Great Dunmow
+	Tem Elevador
+-----
+-----
+Lila Ellison
+	275000.0
+	Stark Road
+	Ripple Park
+	Hoquiam
+	Tem Elevador
+-----
+-----
+Lila Ellison
+	170000.0
+	Fisher Square
+	Hansa Plaza
+	Staunton
+	Não Tem Elevador
+-----
+-----
+Georgina Hendrix
+	332000.0
+	Hoffman Road
+	West Cardoon
+	Staunton
+	Tem Elevador
+-----
+-----
+Darragh Benton
+	355000.0
+	Columbus Ave
+	Denton
+	Eastchester
+	1 Andar(es)
+-----
+-----
+Tomi French
+	615000.0
+	Norton
+	Lower Byzantine
+	Chulmleigh
+	1 Andar(es)
+-----
+-----
+Tomi French
+	421000.0
+	Seymour Road
+	West Cardoon
+	Great Dunmow
+	Tem Elevador
+-----
+-----
+Simone Ashley
+	295000.0
+	Amazon
+	Cobalt Walk
+	Mobile
+	1 Andar(es)
+-----
+-----
+Nina Hunter
+	333000.0
+	Sailor Field
+	Lower Byzantine
+	Busselton
+	Tem Elevador
+-----
+-----
+Nina Hunter
+	743000.0
+	Square Park
+	West Cardoon
+	Great Dunmow
+	Tem Elevador
+-----
+-----
+Libbie Reilly
+	223000.0
+	Turton
+	Aston
+	Uckfield
+	1 Andar(es)
+-----
+-----
+Szymon Gallegos
+	245000.0
+	Faith
+	Aston
+	Chulmleigh
+	1 Andar(es)
+-----
+-----
+Darragh Bentong
+	333000.0
+	Blue Lake
+	Snow Neck
+	Hoquiam
+	Não Tem Campo de Futebol
+-----
+-----
+Libbie Reilly
+	628000.0
+	Seymour Road
+	West Cardoon
+	Busselton
+	Tem Elevador
+-----
+-----
+Nina Hunter
+	272000.0
+	Seymour Road
+	Fiddlehead City
+	Busselton
+	Não Tem Elevador
+-----
+-----
+Amani Riley
+	329000.0
+	Seymour Road
+	West Cardoon
+	Great Dunmow
+	Tem Elevador
+-----
+-----
+Nina Hunter
+	666000.0
+	Heathan Forest
+	Mount Woodruff
+	Higham Ferrers
+	Não Tem Campo de Futebol
+-----
+-----
+Simone Ashley
+	655000.0
+	West road
+	Aston
+	Newton-le-Willows
+	2 Andar(es)
+-----
+-----
+Georgina Hendrix
+	455000.0
+	Winterfield
+	Aston
+	Orford
+	1 Andar(es)
+-----
+-----
+Kurt Turnbull
+	1000000.0
+	Groove Park
+	Fawn Neck
+	Higham Ferrers
+	Tem Campo de Futebol
+-----
+-----
+Libbie Reilly
+	462000.0
+	Tatton Road
+	Amber Plaza
+	Great Dunmow
+	Tem Elevador
+-----
+-----
+Menaal Keeling
+	916000.0
+	Laburnum Grove
+	Mount Woodruff
+	Higham Ferrers
+	Tem Campo de Futebol
+-----
+-----
+Niyah Lewis
+	743000.0
+	Laburnum Grove
+	Mount Cornflower
+	Higham Ferrers
+	Não Tem Campo de Futebol
+-----
+-----
+Niyah Lewis
+	888000.0
+	Seymour Road
+	Indigo Village
+	Newton-le-Willows
+	Tem Elevador
+-----
+-----
+Kurt Turnbull
+	1555000.0
+	Winterfield
+	Upper Sunrise
+	Orford
+	3 Andar(es)
+-----
+-----
+Simone Ashley
+	255000.0
+	Winland
+	Sun Knigth
+	Orford
+	1 Andar(es)
+-----
